@@ -1,0 +1,51 @@
+@media screen and (max-width: 450px) {
+  #nav, #featured, .black, #room, #about .find, #about .storelist, #about .aboutus, #detail, #detailcontent, #Plist {box-sizing: border-box;}
+	#logo img {width: 8em;}
+	.slider .pb-arrow-prev, .slider .pb-arrow-next {display: none !important;}
+	.slider .pb-carousel-ind {top: 115px;}
+	#silder {height: 125px;}
+	#featured .title .l {margin-bottom: 20px;}
+	#featured .title .r{width: 100%;}
+	#featured .list .li img{width:100%}
+  .black .li {margin-bottom: 20px;}
+  #room .room .li {width: 100%}
+  .foot {padding: 20px 0;}
+  .foot .l {width: 180px; margin: 0 auto; margin-bottom: 30px;}
+  .foot .r .r1, .foot .r .r2 {padding: 0 10px;}
+  #nav .list {display: none; position: fixed; top: 0; left: 0; bottom: 0; right: 0; background-color: rgba(0, 0, 0, 0.8);}
+  #nav .list .li a {color: #eee;}
+  #nav .list.active{display: block;}
+  .subnavin .l {margin-left:10px;width: 100px;}
+  .subnavin .l span {width: 50px;}
+  .subnavin .l a {font-size: 2em;}
+  .subnavin .r{padding: 0 10px;}
+  .subnavin .r .r1 {width: 150px;}
+  .subnavin .r .r2 {width: 100px;}
+  .subnavin .r .r2.s{display:block;line-height: 2em;}
+  .menu-close-btn {font-size: 4em; color: #eee; position: absolute; top: 10px; right: 10px;}
+
+  /* about */
+  #about .bigpic {}
+  #about .find {padding: 1em}
+  #about .find span {padding-bottom: 20px; clear: both;}
+  #about .find input {float: left; width: 55%;}
+  #about .find img {float: right; height: 1.05em; width: 1.05em;}
+  #about .storelist .r {height: 640px;}
+
+  /* detail */
+  #detail .gallery .mainpic {width: 100%;}
+  #detail .gallery .l .picbox{width:100%;height:107px;overflow:hidden;position:relative; margin-bottom: 20px;}
+  #detail .gallery .l {position: relative;}
+  #detail .gallery .l .prev {transform: rotate(180deg); position: absolute; left: -20px; top: 50%; z-index: 2; margin-top: -16px;}
+  #detail .gallery .l .next {position: absolute; right: -20px; top: 50%; z-index: 2; margin-top: -16px;}
+  #detail .detailtop {margin-top: 20px;}
+
+  /*Plist*/
+  #Plist {position: relative;}
+  #Plist .filter-btn {font-size: 3em; position: absolute; right: 20px;}
+  #Plist .filter {display: none; position: fixed; top: 0; bottom: 0; left: 0; right: 0; background-color: #fff; z-index: 5; padding: 20px; padding-top: 50px; overflow: auto;}
+  #Plist .filter.active {display: block;}
+  #Plist .list {clear: both;}
+  #Plist .filter-close-btn {position: absolute; top: 10px; right: 20px; font-size: 3em;}
+  #Plist .list .li img{width: 100%;}
+}

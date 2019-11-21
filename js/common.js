@@ -178,4 +178,18 @@ $(".detailmenu .dli").click(
 		$(this).siblings().removeClass("s");
 	}
 );
+// 移动端菜单
+$('.menu-btn').click(function () {
+	$('#nav .list').addClass('active')
+})
+$('.menu-close-btn').click(function () {
+	$('#nav .list').removeClass('active')
+})
+
+$('.filter-btn').click(function () {
+	$('#Plist .filter').addClass('active')
+})
+$('.filter-close-btn').click(function () {
+	$('#Plist .filter').removeClass('active')
+})
 });

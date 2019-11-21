@@ -1,0 +1,53 @@
+@media screen and (min-width: 451px) {
+  .slider{width:1440px;height:480px;overflow:hidden;}
+  .slider .pb-carousel{height:100%}
+  .slider .pb-carousel li{width:100%;height:100%;}
+  .slider .pb-carousel li img{width:100%;height:100%;}
+  #featured .title{display:flex;justify-content:space-between;align-items:flex-end}
+  #featured .title .r {width: 50%;}
+  #featured .list .listin {height:34em;display:flex;justify-content:flex-start;overflow:hidden}
+  #featured .list .li img{width:22.5em;height:22.5em}
+  .black {display:flex;justify-content:space-around}
+  #room .room{display:flex;justify-content:space-between}
+  #room .room .li .img{width:30em;height:21.6em}
+  .foot{display:flex;justify-content:flex-end;}
+  .foot .l{width:30%;display:flex;flex-direction:column}
+  .foot .r{width:60%;}
+  .menu-btn {display: none;}
+  .subnavin {padding:3em 20px;}
+  .subnavin .l {margin-left:80px;width:440px;}
+  .subnavin .l span {width: 84px;}
+  .subnavin .l a {font-size:4.2em;}
+  .subnavin .r {margin:0 0 0 5em;}
+  .subnavin .r .r1 {width:40%;}
+  .subnavin .r .r2.s{display:flex}
+  .subnavin .r .r2 {width:50%;margin:0 0 0 10%;}
+  .menu-close-btn {display: none;}
+
+  /* about */
+  #about .bigpic{}
+  #about .find {padding:2em 20px;display:flex;justify-content:space-betwee;align-items:center}
+  #about .storelist {display:flex;justify-content:space-between}
+  #about .storelist .l{width:40%;display:flex;flex-direction:column}
+  #about .storelist .r{width:54%}
+  #about .aboutus {display:flex;justify-content: space-between;}
+  #about .aboutus .l{width:48%;display:flex;flex-direction:column}
+  #about .aboutus .r{width:50%;}
+
+  /* detail */
+  #detail {display:flex;justify-content:space-between}
+  #detail .gallery{width:52%;display:flex;justify-content:space-between}
+  #detail .gallery .l .picbox .picboxin{display:flex;flex-direction:column;position:absolute}
+  #detail .gallery .l .prev{transform:rotate(270deg)}
+  #detail .gallery .l .next{transform:rotate(90deg)}
+  #detail .gallery .mainpic{width:480px;height:400px}
+  #detail .detailtop{width:43%;display:flex;flex-direction:column}
+
+  /*Plist*/
+  #Plist{display:flex;justify-content:space-between}
+  #Plist .filter-btn {display: none;}
+  .foot{width:100%;max-width:1160px;margin:0 auto;padding:0 20px;padding:4em 0}
+  #Plist .filter{width:22%;display:flex;flex-direction:column;justify-content:flex-start}
+  #Plist .list{width:76%;display:flex;flex-wrap:wrap}
+  #Plist .list .li img{width:22.5em;height:22.5em}
+}
